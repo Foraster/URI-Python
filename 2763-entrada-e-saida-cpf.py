@@ -1,0 +1,6 @@
+cpf = input().split('.')
+cpf[2] = cpf[2].split('-')
+print(cpf[0])
+print(cpf[1])
+print(cpf[2][0])
+print(cpf[2][1])
